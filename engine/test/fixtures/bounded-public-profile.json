@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "profileId": "public-smoke-v1",
+  "kind": "bounded-public-smoke",
+  "canonicalRules": {
+    "rulesetId": "swedish-alga-free-order-v1",
+    "sha256": "d122c68b140b42a4509c8fc3f2252661b8bf51a791d630996706458b05825018"
+  },
+  "invocation": {
+    "npmScript": "smoke",
+    "command": "node engine/src/cli.mjs smoke"
+  },
+  "bounds": {
+    "fullGameSimulations": 0,
+    "deterministicReferenceQueries": 1,
+    "nodeProcesses": 1,
+    "workerThreads": 0,
+    "precomputationWorkers": 0,
+    "simulationWorkers": 0,
+    "runtimeDirectory": "data/smoke",
+    "generatedPayloadFiles": 0,
+    "persistentPayloadBytes": 0,
+    "precomputationEnabled": false,
+    "requiresExistingTablesOrPolicy": false,
+    "dossierEnabled": false,
+    "archiveGenerationEnabled": false,
+    "policyComparisonEnabled": false,
+    "finalVerifyRunEnabled": false,
+    "expectedCompletionClass": "interactive-seconds",
+    "timeoutMilliseconds": null,
+    "peakRssBytes": null
+  },
+  "assertion": {
+    "deterministicReferenceValue": 2.301432126285,
+    "printedDecimalPlaces": 12
+  },
+  "scope": {
+    "fullResearchReproduction": false,
+    "fullGameExpectedValueValidated": false,
+    "valuesBoundsPolicyHashesValidated": false,
+    "monteCarloResultsValidated": false,
+    "figuresValidated": false,
+    "dossierValidated": false,
+    "archivesValidated": false,
+    "cleanRoomResearchReproductionValidated": false,
+    "publicationReadinessValidated": false,
+    "routingChangedInPhase9c1c": false
+  }
+}

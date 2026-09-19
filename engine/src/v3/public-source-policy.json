@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "policyId": "phase-9c2b-reviewed-research-sources-v1",
+  "defaultDisposition": "exclude_unreviewed",
+  "researchRoot": "research/sources",
+  "requiredMetadata": "research/sources/SOURCE_METADATA.json",
+  "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE",
+  "completeSubtree": {
+    "prefix": "research/sources/optimalt-yatzy-source/",
+    "expectedEntryCount": 27
+  },
+  "entries": [
+    {
+      "path": "research/sources/Alga_Yatzy_rules_manual.pdf",
+      "disposition": "excluded_rights_unresolved",
+      "included": false,
+      "requiredNotice": null
+    },
+    {
+      "path": "research/sources/KTH_2012_optimal_yatzy.pdf",
+      "disposition": "excluded_rights_unresolved",
+      "included": false,
+      "requiredNotice": null
+    },
+    {
+      "path": "research/sources/SOURCE_METADATA.json",
+      "disposition": "author_owned_metadata",
+      "included": true,
+      "requiredNotice": null
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/.gitignore",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/LICENSE",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/README",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/pom.xml",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/ActionsStorage.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/App.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/Bot.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/Category.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/FileActionsStorage.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/Generator.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/Hand.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/Keeper.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/MemoryActionsStorage.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/PanicException.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/ScoreCard.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/Utils.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/VoidActionsStorage.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/concurrency/ParallellAction.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/concurrency/basecases/BaseCase.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/main/java/se/kth/ansjobmarcular/concurrency/recursion/RollCase.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/test/java/se/kth/ansjobmarcular/FileTest.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/test/java/se/kth/ansjobmarcular/HandTest.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/test/java/se/kth/ansjobmarcular/KeeperTest.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/test/java/se/kth/ansjobmarcular/ProbabilityTest.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/test/java/se/kth/ansjobmarcular/ScoreCardTest.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/test/java/se/kth/ansjobmarcular/SolutionTest.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    },
+    {
+      "path": "research/sources/optimalt-yatzy-source/src/test/java/se/kth/ansjobmarcular/UtilsTest.java",
+      "disposition": "retained_third_party_mit",
+      "included": true,
+      "requiredNotice": "research/sources/optimalt-yatzy-source/LICENSE"
+    }
+  ]
+}

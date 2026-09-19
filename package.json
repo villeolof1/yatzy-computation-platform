@@ -1,0 +1,24 @@
+{
+  "name": "yatzy-computation-platform",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Exact Swedish Yatzy solver and one-button reproducible research pipeline",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node engine/src/server.mjs",
+    "test": "node --test engine/test/*.test.mjs",
+    "preflight": "node engine/src/cli.mjs preflight",
+    "smoke": "node engine/src/cli.mjs smoke",
+    "pipeline": "node engine/src/cli.mjs smoke",
+    "verify-bundle": "node engine/src/cli.mjs verify-bundle",
+    "test:mutation": "node --test engine/test/mutation*.test.mjs",
+    "test:fault": "node --test engine/test/fault*.test.mjs",
+    "test:determinism": "node --test engine/test/determinism*.test.mjs",
+    "pipeline:reduced": "node engine/src/v3/cli.mjs reduced",
+    "pipeline:official": "node engine/src/v3/cli.mjs official",
+    "audit-run": "node engine/src/v3/cli.mjs audit"
+  }
+}

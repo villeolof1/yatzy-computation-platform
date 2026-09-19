@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "profileId": "registered-full-v3",
+  "kind": "registered-full-research",
+  "mode": "official",
+  "identity": {
+    "canonicalRulesetId": "swedish-alga-free-order-v1",
+    "canonicalRulesSha256": "d122c68b140b42a4509c8fc3f2252661b8bf51a791d630996706458b05825018",
+    "historicalCompatibleRulesetId": "kth-2012-implementation-compatible-v1",
+    "historicalTwoPairSinglePairFallback": true
+  },
+  "runtimeTunables": {
+    "precomputationWorkers": {
+      "environmentVariable": "YATZY_WORKERS",
+      "default": 8,
+      "minimum": 1,
+      "maximum": 12
+    },
+    "simulationWorkers": {
+      "environmentVariable": "YATZY_SIM_WORKERS",
+      "default": 5,
+      "minimum": 1,
+      "maximum": 8
+    },
+    "deterministicRebuildWorkers": "max(1, precomputationWorkers - 1)"
+  },
+  "fixedConfiguration": {
+    "precomputation": {
+      "canonicalPrimary": true,
+      "canonicalDeterministicRebuild": true,
+      "historicalCompatiblePrimary": true,
+      "historicalCompatibleDeterministicRebuild": true,
+      "primaryChunkSize": 4096,
+      "deterministicRebuildChunkSize": 3072,
+      "writePolicy": true
+    },
+    "simulations": {
+      "pilotGames": 50000,
+      "independentOptimalRuns": 10,
+      "gamesPerOptimalRun": 1000000,
+      "totalIndependentOptimalGames": 10000000,
+      "historicalCompatibleGames": 100000,
+      "pairedComparisonGames": 500,
+      "visitWeightedGames": 200,
+      "structuralAtlasStatesPerLayer": 32
+    },
+    "stages": {
+      "finalModelAndSimulationVerification": true,
+      "analysisAndCorrectedFigures": true,
+      "schemasAndEvidenceRegisters": true,
+      "formatAndSchemaAudit": true,
+      "stagingArchives": true,
+      "cleanRoomReproduction": true,
+      "finalArchives": true,
+      "finalProvenance": true
+    }
+  },
+  "safety": {
+    "explicitSafeOutputRootRequired": true,
+    "fullResourceAcknowledgementRequired": true,
+    "acknowledgementImplementationStatus": "deferred-to-phase-9c3",
+    "defaultRouteStatus": "not-authorized-as-default",
+    "intendedFutureDefault": "public-smoke-v1",
+    "routingChangedInPhase9c1c": false
+  }
+}

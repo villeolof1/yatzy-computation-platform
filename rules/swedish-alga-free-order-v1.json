@@ -1,0 +1,16 @@
+{
+  "id": "swedish-alga-free-order-v1",
+  "version": 1,
+  "description": "Swedish/Scandinavian Alga free-order Yatzy with two distinct pairs required for Two Pairs.",
+  "dice": { "count": 5, "faces": 6, "fair": true },
+  "turn": { "initial_roll": true, "max_rerolls": 2, "may_score_early": true, "allow_zero_dice_reroll": false },
+  "order": "free",
+  "upper_bonus": { "threshold": 63, "points": 50 },
+  "yatzy_bonus": null,
+  "joker_rule": false,
+  "categories": [
+    "ones", "twos", "threes", "fours", "fives", "sixes",
+    "one_pair", "two_pairs", "three_of_a_kind", "four_of_a_kind",
+    "small_straight", "large_straight", "full_house", "chance", "yatzy"
+  ]
+}

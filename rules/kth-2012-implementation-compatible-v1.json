@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "rulesetId": "kth-2012-implementation-compatible-v1",
+  "baseRulesetId": "swedish-alga-free-order-v1",
+  "singleSemanticDifference": {
+    "category": "two_pairs",
+    "behavior": "When no second distinct pair exists, retain the highest single-pair score instead of scoring zero.",
+    "option": "twoPairSinglePairFallback",
+    "value": true
+  },
+  "source": {
+    "repository": "https://github.com/ansjob/optimalt-yatzy",
+    "commit": "301ab6b3dad94a9bf1f75c495dd1505d235d1823",
+    "file": "src/main/java/se/kth/ansjobmarcular/ScoreCard.java",
+    "lines": "405-422",
+    "license": "MIT"
+  }
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yatzy Computation Platform</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#research" aria-label="Yatzy Computation Platform home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="3" y="3" width="26" height="26" rx="8" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="11" cy="11" r="2"/><circle cx="21" cy="11" r="2"/><circle cx="16" cy="16" r="2"/><circle cx="11" cy="21" r="2"/><circle cx="21" cy="21" r="2"/></svg></span>
+        <span><strong>Yatzy</strong><small>Computation platform</small></span>
+      </a>
+      <nav id="nav" aria-label="Application navigation">
+        <button data-view="research" class="active"><span class="nav-icon">✓</span>Public smoke/demo</button>
+        <button data-view="precomputation"><span class="nav-icon">∑</span>Precomputation</button>
+        <button data-view="verification"><span class="nav-icon">✓</span>Verification</button>
+        <button data-view="simulations"><span class="nav-icon">◫</span>Simulations</button>
+        <button data-view="analysis"><span class="nav-icon">⌁</span>Analysis</button>
+        <button data-view="solver"><span class="nav-icon">◇</span>Solver</button>
+        <button data-view="artifacts"><span class="nav-icon">⇩</span>Artifacts</button>
+        <button data-view="provenance"><span class="nav-icon">◎</span>Provenance</button>
+        <button data-view="settings"><span class="nav-icon">⚙</span>Profiles</button>
+      </nav>
+      <div class="engine-card">
+        <span class="status-dot" id="engine-dot"></span>
+        <div><strong id="engine-label">Connecting</strong><small>Local scientific engine</small></div>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div><p class="breadcrumb" id="breadcrumb">Public smoke/demo</p><h1 id="page-title">Safe default</h1></div>
+        <div class="top-status"><span id="top-status">UNINITIALIZED</span><strong id="top-progress">0.00%</strong></div>
+      </header>
+      <div id="content" class="content" aria-live="polite"></div>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

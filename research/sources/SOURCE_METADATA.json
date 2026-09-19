@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "kthPaper": {
+    "title": "An Optimal Strategy for Yahtzee",
+    "institution": "KTH Royal Institute of Technology",
+    "year": 2012,
+    "url": "https://www.csc.kth.se/utbildning/kandidatexjobb/datateknik/2012/rapport/larsson_marcus_OCH_sjoberg_andreas_K12046.pdf",
+    "archivePath": "research/sources/KTH_2012_optimal_yatzy.pdf",
+    "sha256": "64244ff3ad18e2fdfc1938e3aefb4bbd0e6fec32603ec248c745a6ee36c7d10b"
+  },
+  "releasedSource": {
+    "repository": "https://github.com/ansjob/optimalt-yatzy",
+    "commit": "301ab6b3dad94a9bf1f75c495dd1505d235d1823",
+    "license": "MIT",
+    "archivePath": "research/sources/optimalt-yatzy-source",
+    "behaviorEvidence": {
+      "file": "src/main/java/se/kth/ansjobmarcular/ScoreCard.java",
+      "lines": "405-422",
+      "summary": "The Two Pairs branch retains the first pair score when no second distinct pair is found."
+    }
+  },
+  "officialAlgaManual": {
+    "url": "https://algaspel.se/wp-content/uploads/2023/10/yatzyrese.pdf",
+    "archivePath": "research/sources/Alga_Yatzy_rules_manual.pdf",
+    "sha256": "e7c232b5b1c1ef9b169795a845a127c8f7814d32088ec3ddf09c0a920eb8f0eb",
+    "ruleEvidence": "The official manual requires two different pairs; four equal dice do not constitute Two Pairs."
+  },
+  "interpretationConstraint": "The one-change compatibility computation can establish sufficiency and strong support, but not historical developer intent or uniqueness."
+}

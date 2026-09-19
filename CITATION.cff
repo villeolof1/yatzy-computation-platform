@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+type: software
+title: "Yatzy Computation Platform"
+authors:
+  - family-names: "Wedenberg"
+    given-names: "Ville"
+version: 3.0.0
+license: MIT

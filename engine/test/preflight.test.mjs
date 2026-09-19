@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import { fileURLToPath } from 'node:url';
+import { PipelineManager } from '../src/pipeline/manager.mjs';import { runPreflight } from '../src/pipeline/preflight.mjs';
+test('scientific preflight passes in the packaged project',()=>{const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..','..');const m=new PipelineManager(root);const dir=fs.mkdtempSync(path.join(os.tmpdir(),'yatzy-preflight-'));const r=runPreflight({projectRoot:root,runDir:dir,rulesHash:m.rulesHash});assert.equal(r.passed,true);});
