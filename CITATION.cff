@@ -6,4 +6,8 @@ authors:
   - family-names: "Wedenberg"
     given-names: "Ville"
 version: 3.0.0
+date-released: '2026-09-20'
+doi: 10.5281/zenodo.22858643
+repository-code: "https://github.com/villeolof1/yatzy-computation-platform"
+url: "https://github.com/villeolof1/yatzy-computation-platform/releases/tag/v3.0.0"
 license: MIT
