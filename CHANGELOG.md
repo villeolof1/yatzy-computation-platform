@@ -1,8 +1,9 @@
 # Changelog
 
-## 3.0.0 release candidate
+## 3.0.0 - 2026-09-20
 
-- Prepared public release documentation without publishing or depositing the project.
+- Published [v3.0.0](https://github.com/villeolof1/yatzy-computation-platform/releases/tag/v3.0.0) from the sanitized public root and deposited the software on Zenodo: [10.5281/zenodo.22858643](https://doi.org/10.5281/zenodo.22858643).
+- During release preparation, prepared public documentation before publication and archival deposit.
 - Documented the bounded smoke/demo default and both explicit full-research acknowledgement routes.
 - Added author-owned MIT licensing, historical Java attribution, bounded data-rights language, citation metadata, and reproducibility guidance.
 - Distinguished historical `SOURCE_CHECKSUMS.sha256` evidence from current package manifest and public provenance verification.

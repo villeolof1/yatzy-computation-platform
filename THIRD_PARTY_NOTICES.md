@@ -2,7 +2,7 @@
 
 ## Author-owned software and documentation
 
-Author-owned software and documentation in this release candidate are licensed under the root MIT License, copyright 2026 Ville Wedenberg.
+Author-owned software and documentation in this public release are licensed under the root MIT License, copyright 2026 Ville Wedenberg.
 
 ## Historical Java source
 
@@ -23,4 +23,4 @@ The sanitized public source and package do not contain:
 - private solver or paper repositories and private research material;
 - the removed `scripts/install-node-autostart.ps1` and `scripts/uninstall-node-autostart.ps1` files.
 
-Metadata may identify excluded historical sources without distributing their contents. No excluded, private, or third-party material is relicensed by this release candidate.
+Metadata may identify excluded historical sources without distributing their contents. No excluded, private, or third-party material is relicensed by this public release.
